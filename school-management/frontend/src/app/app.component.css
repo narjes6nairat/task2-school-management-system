@@ -1,0 +1,14 @@
+.navbar {
+  justify-content: space-between;
+}
+
+ a {
+  padding: 0 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffff;
+}
+
+a.active {
+ border-bottom: aliceblue 3px solid;
+}

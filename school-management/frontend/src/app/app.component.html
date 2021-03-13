@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" class="navbar">
+  <div>School Management</div>
+  <div class="nav-links">
+    <a routerLink='/'   routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">Students</a>
+    <a routerLink='/add-student'  routerLinkActive="active">Add Student</a>
+  </div>
+</mat-toolbar>
+
+
+<router-outlet></router-outlet>
